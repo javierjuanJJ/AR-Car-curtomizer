@@ -206,7 +206,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 112836273}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 240283336}
+        m_TargetAssemblyTypeName: ChangeColor, Assembly-CSharp
+        m_MethodName: ChangeColorBlue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &112836273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -245,6 +257,65 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 112836270}
   m_CullTransparentMesh: 1
+--- !u!1 &240283335
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 240283337}
+  - component: {fileID: 240283336}
+  m_Layer: 0
+  m_Name: ColorChanger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &240283336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240283335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 575cfc4eb3d2e2e4382da582a796310e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mats:
+  - {fileID: 6643853855755491919}
+  - {fileID: 3167573711898080689}
+  - {fileID: 5812472722428904821}
+  - {fileID: 3641842152306302677}
+  - {fileID: 5558036680536058700}
+  - {fileID: 3362550388736033240}
+  - {fileID: 4251891890382488089}
+  - {fileID: 44321022679388910}
+  - {fileID: 3230051985920076820}
+  - {fileID: 9041345733332853915}
+  - {fileID: 7946924520568024443}
+  - {fileID: 8032742677191436086}
+  - {fileID: 7853942333481953298}
+  - {fileID: 8936110499812520907}
+--- !u!4 &240283337
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240283335}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 766, y: 384.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &548456166
 GameObject:
   m_ObjectHideFlags: 0
@@ -557,7 +628,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1022589545}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 240283336}
+        m_TargetAssemblyTypeName: ChangeColor, Assembly-CSharp
+        m_MethodName: ChangeColorYellow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1022589545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -814,7 +897,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1232846689}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 240283336}
+        m_TargetAssemblyTypeName: ChangeColor, Assembly-CSharp
+        m_MethodName: ChangeColorBlack
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1232846689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1183,7 +1278,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1798787219}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 240283336}
+        m_TargetAssemblyTypeName: ChangeColor, Assembly-CSharp
+        m_MethodName: ChangeColorRed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1798787219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1650,9 +1757,87 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!23 &44321022679388910 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 8170539552103877449, guid: 63b93cd7daeff964b9ef303978a8c9b3, type: 3}
+  m_PrefabInstance: {fileID: 8214253265052588455}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &3167573711898080689 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6488447161800436758, guid: 63b93cd7daeff964b9ef303978a8c9b3, type: 3}
+  m_PrefabInstance: {fileID: 8214253265052588455}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &3230051985920076820 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6714182015316587955, guid: 63b93cd7daeff964b9ef303978a8c9b3, type: 3}
+  m_PrefabInstance: {fileID: 8214253265052588455}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &3362550388736033240 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6869341906296100991, guid: 63b93cd7daeff964b9ef303978a8c9b3, type: 3}
+  m_PrefabInstance: {fileID: 8214253265052588455}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &3641842152306302677 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 4860668187765606258, guid: 63b93cd7daeff964b9ef303978a8c9b3, type: 3}
+  m_PrefabInstance: {fileID: 8214253265052588455}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &4251891890382488089 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 5404076523245378494, guid: 63b93cd7daeff964b9ef303978a8c9b3, type: 3}
+  m_PrefabInstance: {fileID: 8214253265052588455}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4822986267009910212 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3679532868918041699, guid: 63b93cd7daeff964b9ef303978a8c9b3, type: 3}
+  m_PrefabInstance: {fileID: 8214253265052588455}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5306754218819247998 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4060983570889148121, guid: 63b93cd7daeff964b9ef303978a8c9b3, type: 3}
+  m_PrefabInstance: {fileID: 8214253265052588455}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5306754218819247999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4822986267009910212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 575cfc4eb3d2e2e4382da582a796310e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mats: []
+--- !u!23 &5558036680536058700 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 4385660766313525995, guid: 63b93cd7daeff964b9ef303978a8c9b3, type: 3}
+  m_PrefabInstance: {fileID: 8214253265052588455}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &5812472722428904821 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2401807250106129618, guid: 63b93cd7daeff964b9ef303978a8c9b3, type: 3}
+  m_PrefabInstance: {fileID: 8214253265052588455}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &6643853855755491919 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 3300388880140141544, guid: 63b93cd7daeff964b9ef303978a8c9b3, type: 3}
+  m_PrefabInstance: {fileID: 8214253265052588455}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &7853942333481953298 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2089719853015724469, guid: 63b93cd7daeff964b9ef303978a8c9b3, type: 3}
+  m_PrefabInstance: {fileID: 8214253265052588455}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &7946924520568024443 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2285513511255749852, guid: 63b93cd7daeff964b9ef303978a8c9b3, type: 3}
+  m_PrefabInstance: {fileID: 8214253265052588455}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &8032742677191436086 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2199141130938941073, guid: 63b93cd7daeff964b9ef303978a8c9b3, type: 3}
   m_PrefabInstance: {fileID: 8214253265052588455}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8214253265052588455
@@ -1668,7 +1853,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4060983570889148121, guid: 63b93cd7daeff964b9ef303978a8c9b3, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4060983570889148121, guid: 63b93cd7daeff964b9ef303978a8c9b3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1712,3 +1897,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63b93cd7daeff964b9ef303978a8c9b3, type: 3}
+--- !u!23 &8936110499812520907 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 1008123475660630636, guid: 63b93cd7daeff964b9ef303978a8c9b3, type: 3}
+  m_PrefabInstance: {fileID: 8214253265052588455}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &9041345733332853915 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 902887991683398972, guid: 63b93cd7daeff964b9ef303978a8c9b3, type: 3}
+  m_PrefabInstance: {fileID: 8214253265052588455}
+  m_PrefabAsset: {fileID: 0}
